@@ -1,0 +1,4 @@
+get input  int 'n' using do while with the range of 1-8 otherwise run the loop infinit(done)
+printing # in rows and column
+ for ith row no of number of #==i and number of space == n-i
+ total number of colum aka height == n

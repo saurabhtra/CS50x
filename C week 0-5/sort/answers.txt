@@ -1,0 +1,17 @@
+sort1 uses: bubble sort
+
+How do you know?:for random50000,reversed50000 : this algo is taking approx 9.5 secs on the other hand it takes approx 5.9 which is its best case.
+
+sort2 uses: merge sort
+
+How do you know?: The time of execution is in same propostion for any order of the input.Also time complexity of the merge sort is Big Theta means no best or worst case also it works better when size of input size
+goes up.
+
+(e.g for random5000,sorted5000,
+reversed5000: this algo is taking approx 0.07 secs and
+same for random50000,sorted50000,reversed50000 : this algo is taking approx 2.9 secs which is least compared to other two algo.)
+
+sort3 uses: selection sort
+
+How do you know?: As  it is not better than sort2 but better than sort1 and the most important thing here is it has not best or worst case (i.e. its time complexity is Big Theta)which can be seen by seeing its execution time
+

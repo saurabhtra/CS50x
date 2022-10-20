@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap');
+
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+.sidebar{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(173, 173, 173);
+  width: 434px;
+  height: 100vh;
+}
+.sidebar nav{
+  padding:45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+}
+
+.main{
+  /* background-color: yellow; */
+  width: 90vw;
+  width: 100vw;
+}
+
+.container{
+  display: flex;
+}
+
+.infoContainer{
+  font-family: 'Source Sans Pro', sans-serif;
+
+  height: 58vh;
+  /* background-color: brown; */
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+  flex-direction: column;
+}
+.hello{
+  font-size: 55PX;
+}
+.name{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about{
+  font-size:40px;
+}
+.moreabout{
+  font-size: 22px;
+  margin-top: 23px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.buttons {
+  margin-top: 34px;
+}
+.btn{
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: rgb(170, 170, 210);
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.btn-sm{
+  font-size: 10px;
+  padding:  7px 13px;
+  margin: 10px 0;
+}
+
+.btn:hover{
+  color: rgb(128, 128, 192);
+  background-color: white;
+}
+.devPic img {
+  height: 58vh;
+
+}
+
+
+
+/* contact form */
+.contactform{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 23px;
+
+}
+.contactform h1{
+  padding: 15px 0;
+}
+.contactform form div input{
+  width: 26vw;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 6px 0 0 0;
+}
+#emailHelp{
+  font-size: 12px;
+  color: rgb(118, 118, 219);
+  margin: 0 5px;
+  padding:  3px 0 0 0;
+}
+#form-check{
+  flex-direction: row;
+}
+#form-check input{
+  width: 24px;
+  margin: 3px 0;
+}
+.blogItem{
+  margin: 20px;
+  /* todo fontstylr */
+}
+
+ h1{
+  /* todo fontstylr */
+  margin: 23px;
+}
+ p{
+ /* todo fontstylr */
+}
+
+/* intro */
+.intro h2{
+  margin: 13px;
+}
+.intro p{
+  /* sty;e fonrt */
+  margin: 13px
+}
+.skill{
+  width:  265px;
+  height: 6px;
+  background-color: rgb(185, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(182, 180, 180);
+}
+.at{
+  width: 256px;
+  background-color: chartreuse;
+
+}
+.st{
+  width: 190px;
+  background-color: blueviolet;
+}
+.ft{
+  width: 125px;
+  background-color: aqua;
+}
+@media (max-width : 800px) {
+  *{
+    background-color: rgb(254, 222, 222);
+  }
+  .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+  }
+ 
+}
